@@ -1,76 +1,69 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project1 from "../assets/projects/project-1.png";
+import project2 from "../assets/projects/project-2.png";
+import project3 from "../assets/projects/project-3.png";
+import project4 from "../assets/projects/project-4.png";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a passionate front-end developer with a strong focus on building efficient and scalable web applications using React and SAP Ui5. With 2 and a half years of hands-on experience, I have honed my skills in crafting user-friendly interfaces and optimizing application performance. My goal is to leverage my expertise to create innovative solutions that enhance user experiences and drive business growth.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a dedicated and versatile Front-end developer with a passion for creating efficient and user-friendly web applications. With 2 and a half years of professional experience, I have worked with a variety of technologies, including React, SAP UI5, JavaScript, HTML and CSS. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy cooking, staying active and exploring new technologies.`;
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
-  },
-  {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
+    year: "Jul 2024 - Present",
     role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    company: "Incture Technologies",
+    description: `Spearheaded the Frontend (ReactJS) development of the Goods Receipt Event Management System (GREMS). Led client interactions and product demonstrations, engineered complex forms with intricate calculations, and integrated multi-level approval workflows. Implemented reusable components, incorporating libraries like Redux Toolkit, Material UI, and Big Calendar. Directed code refactoring to enhance quality and simplify maintenance.`,
+    technologies: ["React.js", "JavaScript", "Redux Toolkit", "Material UI", "Big Calendar", "CI/CD", "Azure Boards"],
+  },
+  {
+    year: "Sept 2022 - Jul 2024",
+    role: "Associate Software Engineer",
+    company: "Incture Technologies",
+    description: `Contributed to the UI development of the Cost of Complexity application using ReactJS. Developed tables and plots, optimizing production costs with machine learning integration. Improved code efficiency, reducing load times from 45 seconds to 5 seconds. Co-developed a UI5-based Plant Maintenance application deployed across 9+ countries, integrated i18n for multi-language support, and automated SAP PM workflows.`,
+    technologies: ["React.js", "JavaScript", "SAP UI5", "i18n", "Promises", "Azure", "Plotly"],
+  },
+  {
+    year: "Jun 2022 - Sept 2022",
+    role: "Trainee",
+    company: "Incture Technologies",
+    description: `Engaged in Front-End design and development through ReactJs and SAP UI5 training. Prototyped applications for POCs, integrated JSON and XML data binding, and participated in Agile processes and implemented Git version control.`,
+    technologies: ["React.js", "SAP UI5", "JSON", "XML", "Git", "JIRA"],
   },
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Goods Receipt Event Management System (GREMS)",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "A web application designed to manage goods receipt events with multi-level approval workflows and and complex forms with intricate calculations. Led the frontend (ReactJS) development, integrating various libraries and optimizing code quality through refactoring.",
+    technologies: ["React.js", "Redux Toolkit", "Material UI", "Big Calendar", "JavaScript", "CI/CD", "Azure Repos"],
   },
   {
-    title: "Task Management App",
+    title: "Cost of Complexity Application",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "A data-driven application focused on reducing production costs using machine learning algorithms. Developed tables and plots using ReactJS, optimizing application performance with load time improvements from 45 seconds to 5 seconds.",
+    technologies: ["React.js", "JavaScript", "Azure Boards", "Plotly"],
   },
   {
-    title: "Portfolio Website",
+    title: "Plant Maintenance Application",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "A UI5-based application deployed across 9+ countries, managing SAP PM workflows with multi-language support through i18n. Developed MVC-architecture web pages and implemented efficient REST API data synchronization.",
+    technologies: ["SAP UI5", "JavaScript", "MVC", "i18n", "Promises", "JIRA"],
   },
   {
-    title: "Blogging Platform",
+    title: "Proof of Concept (POCs) Applications",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "Prototyped ReactJS and SAP UI5 applications for POCs, demonstrating technical feasibility and driving project approvals.",
+    technologies: ["React.js", "SAP UI5", "JSON", "XML"],
   },
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "Electronic City Phase 1, Bangalore",
+  phoneNo: "9810868659",
+  email: "dhruvsingh1519@gmail.com",
 };
